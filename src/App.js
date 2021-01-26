@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import "./App.css";
 import Dow from "./download.png";
+import Logo from "./ieee.png";
 function App() {
   useEffect(() => {
     (function () {
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
       <div>
+        <img className="LogoIeee" src={Logo} alt="IEEE Logo" />
         <h1>
           Atal Bihari Vajpayee Indian Institute Of Information Technology and
           Management, Gwalior
@@ -65,7 +67,11 @@ function App() {
               <div>
                 <h2>Chapter 2</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue2.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue2.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue2" />
                 </a>
               </div>
@@ -74,7 +80,11 @@ function App() {
               <div>
                 <h2>Chapter 3</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue3.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue3.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue3" />
                 </a>
               </div>
@@ -83,7 +93,11 @@ function App() {
               <div>
                 <h2>Chapter 4</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue4.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue4.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue4" />
                 </a>
               </div>
@@ -92,7 +106,11 @@ function App() {
               <div>
                 <h2>Chapter 5</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue5.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue5.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue5" />
                 </a>
               </div>
@@ -101,7 +119,11 @@ function App() {
               <div>
                 <h2>Chapter 6</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue6.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue6.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue6" />
                 </a>
               </div>
@@ -110,7 +132,11 @@ function App() {
               <div>
                 <h2>Chapter 7</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue7.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue7.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue7" />
                 </a>
               </div>
@@ -119,7 +145,11 @@ function App() {
               <div>
                 <h2>Chapter 8</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue8.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue8.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue8" />
                 </a>
               </div>
@@ -128,7 +158,11 @@ function App() {
               <div>
                 <h2>Chapter 9</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue9.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue9.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue9" />
                 </a>
               </div>
@@ -137,7 +171,11 @@ function App() {
               <div>
                 <h2>Chapter 10</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue10.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/clue10.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="clue10" />
                 </a>
               </div>
@@ -146,13 +184,27 @@ function App() {
               <div>
                 <h2>The Treasure</h2>
                 <br />
-                <a href="https://abvieee.s3.amazonaws.com/events/treasurehunt/treasure.pdf">
+                <a
+                  href="https://abvieee.s3.amazonaws.com/events/treasurehunt/treasure.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={Dow} alt="The Treasure" />
                 </a>
               </div>
             </li>
           </ul>
         </section>
+        <div
+          style={{
+            textAlign: "center",
+            fontSize: "1.25rem",
+            paddingTop: "2rem",
+          }}
+        >
+          <p>Visit us at:</p>
+          <a href="https://ieee.iiitm.ac.in/">https://ieee.iiitm.ac.in/</a>
+        </div>
       </div>
     </>
   );
